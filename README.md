@@ -160,8 +160,3 @@ CUDA        Tesla T4 (14913 MiB)
 pip install ultralytics albumentations opencv-python matplotlib
 ```
 
-## Quick Inference
-
-```bash
-python infer.py --source path/to/images --weights weights/yolov8m_best.pt --conf 0.25
-```
